@@ -94,10 +94,10 @@
               height: 20px;
               padding: 100px;
             }
-            .share-button.sharer .social.active.top {
+            .share-button.sharer .social.top {
               transform: scale(1) translateY(-10px);
             }
-            .share-button.sharer .social.active {
+            .share-button.sharer .social {
               opacity: 1;
               transition: all 0.4s ease 0s;
               visibility: visible;
@@ -117,7 +117,6 @@
             }
             </style>
             <div class="share-button sharer" style="display: block;">
-                <button type="button" class="btn btn-success share-btn">Share</button>
                 <div class="social top center networks-5 ">
                     <!-- Facebook Share Button -->
                     <a class="fbtn share facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://you.madeit.lv"><i class="fa fa-facebook"></i></a> 
@@ -160,18 +159,6 @@
   ga('create', 'UA-81404235-2', 'auto');
   ga('send', 'pageview');
 
-</script>
-<script>
-$( document ).ready(function() {
-    //custom button for homepage
-     $( ".share-btn" ).click(function(e) {
-         $('.networks-5').not($(this).next( ".networks-5" )).each(function(){
-            $(this).removeClass("active");
-         });
-     
-            $(this).next( ".networks-5" ).toggleClass( "active" );
-    });   
-});
 </script>
 </body>
 </html>
