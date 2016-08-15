@@ -54,7 +54,81 @@
 <section>
     <div class="container">
         <div class="row" style="text-align:center">
-            <span class='st_sharethis_large' displayText='ShareThis'></span><span class='st_facebook_large' displayText='Facebook'></span><span class='st_twitter_large' displayText='Tweet'></span><span class='st_linkedin_large' displayText='LinkedIn'></span><span class='st_pinterest_large' displayText='Pinterest'></span><span class='st_email_large' displayText='Email'></span>
+            <style>
+            .social .fbtn {
+                width: 50px;
+                display: inline-block;
+                color: #fff;
+                text-align: center;
+                line-height:18px;
+                float: left;
+            }
+            .social .fa{padding:15px 0px}
+            .facebook {
+                background-color: #3b5998;
+            }
+             
+            .gplus {
+                background-color: #dd4b39;
+            }
+             
+            .twitter {
+                background-color: #55acee;
+            }
+             
+            .stumbleupon {
+                background-color: #eb4924;
+            }
+             
+            .pinterest {
+                background-color: #cc2127;
+            }
+             
+            .linkedin {
+                background-color: #0077b5;
+            }
+             
+            .buffer {
+                background-color: #323b43;
+            }
+
+            .share-button.sharer {
+              height: 20px;
+              padding: 100px;
+            }
+            .share-button.sharer .social.active.top {
+              transform: scale(1) translateY(-10px);
+            }
+            .share-button.sharer .social.active {
+              opacity: 1;
+              transition: all 0.4s ease 0s;
+              visibility: visible;
+            }
+            .share-button.sharer .social.networks-5 {
+
+            }
+            .share-button.sharer .social.top {
+              margin-top: -80px;
+              transform-origin: 0 0 0;
+            }
+            .share-button.sharer .social {
+              margin-left: -65px;
+              opacity: 0;
+              transition: all 0.4s ease 0s;
+              visibility: hidden;
+            }
+            </style>
+            <div class="share-button sharer" style="display: block;">
+                <button type="button" class="btn btn-success share-btn">Share</button>
+                <div class="social top center networks-5 ">
+                    <!-- Facebook Share Button -->
+                    <a class="fbtn share facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://you.madeit.lv"><i class="fa fa-facebook"></i></a> 
+                    <!-- Google Plus Share Button -->
+                    <a class="fbtn share gplus" href="https://plus.google.com/share?url=http://you.madeit.lv"><i class="fa fa-google-plus"></i></a> 
+                    <!-- Twitter Share Button -->
+                    <a class="fbtn share twitter" href="https://twitter.com/intent/tweet?text=title&amp;url=http://you.madeit.lv&amp"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -88,6 +162,18 @@
   ga('create', 'UA-81404235-2', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+$( document ).ready(function() {
+    //custom button for homepage
+     $( ".share-btn" ).click(function(e) {
+         $('.networks-5').not($(this).next( ".networks-5" )).each(function(){
+            $(this).removeClass("active");
+         });
+     
+            $(this).next( ".networks-5" ).toggleClass( "active" );
+    });   
+});
 </script>
 </body>
 </html>
