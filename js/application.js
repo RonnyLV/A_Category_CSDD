@@ -7,7 +7,7 @@ $(document).ready(function () {
                     if ("A" == category.name) {
                         var tbl_body = $("<tbody>");
                         var odd_even = false;
-                        $.each(category.exams, function (k, rowNumber) {
+                        $.each(category.exams, function (rowNumber) {
                             var tbl_row = $("<tr>");
                             var th_cell = $("<th scope=\"row\"></th>");
                             tbl_row.addClass(odd_even ? "odd" : "even");
