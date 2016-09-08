@@ -1,12 +1,13 @@
 $(document).ready(function () {
+    var i, j, k;
     $.getJSON("exams.json", function (data) {
-        $.each(data, function (dept) {
+        $.each(data, function (i, dept) {
             if ("CSDD Rīgas nod." == dept.name) {
-                $.each(dept.categories, function (category) {
+                $.each(dept.categories, function (j, category) {
                     if ("A" == category.name) {
                         var tbl_body = $("<tbody>");
                         var odd_even = false;
-                        $.each(category.exams, function (rowNumber) {
+                        $.each(category.exams, function (k, rowNumber) {
                             var tbl_row = $("<tr>");
                             var th_cell = $("<th scope=\"row\"></th>");
                             tbl_row.addClass(odd_even ? "odd" : "even");
