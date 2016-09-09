@@ -158,7 +158,7 @@ hr.small {
 
 .intro-header {
   background-color: #777777;
-  background: no-repeat center center;
+  background: no-repeat center bottom;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -178,7 +178,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0 350px 0;
+    padding: 150px 0 120px 0;
   }
 }
 
