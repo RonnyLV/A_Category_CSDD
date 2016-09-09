@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var i, j, k;
-    $.getJSON("data/exams.json", function (data) {
+    $.getJSON("http://you.madeit.lv/data/exams.json", function (data) {
         $.each(data, function (i, dept) {
             if ($('body').data('department') == dept.name) {
                 $.each(dept.categories, function (j, category) {

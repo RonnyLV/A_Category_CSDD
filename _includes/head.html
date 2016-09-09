@@ -20,8 +20,8 @@
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="fb:app_id" content="199229233823383"/>
 
-    <script src="js/zepto.min.js"></script>
-    <script src="js/application.js"></script>
+    <script src="{{site.url}}/js/zepto.min.js"></script>
+    <script src="{{site.url}}/js/application.js"></script>
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>
