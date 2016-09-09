@@ -1,10 +1,10 @@
 $(document).ready(function () {
     var i, j, k;
-    $.getJSON("exams.json", function (data) {
+    $.getJSON("data/exams.json", function (data) {
         $.each(data, function (i, dept) {
-            if ("CSDD Rīgas nod." == dept.name) {
+            if ($('body').data('department') == dept.name) {
                 $.each(dept.categories, function (j, category) {
-                    if ("A" == category.name) {
+                    if ($('body').data('category') == category.name) {
                         var tbl_body = $("<tbody>");
                         var odd_even = false;
                         $.each(category.exams, function (rowNumber) {
