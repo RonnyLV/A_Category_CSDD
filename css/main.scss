@@ -9,8 +9,6 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #ffffff;
-  background-color: #242424;
 }
 
 p {
@@ -460,4 +458,23 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #0085A1;
+
+  &.A-category {
+    color: #ffffff;
+    background-color: #242424;
+
+    .intro-header {
+      background-image: url('./../img/moto.jpg');
+    }
+  }
+
+  &.B-category {
+    color: #ffffff;
+    background-color: #222628;
+
+    .intro-header {
+      background-image: url('./../img/auto.jpg');
+      background-position: center bottom;
+    }
+  }
 }
