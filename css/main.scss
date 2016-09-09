@@ -6,6 +6,8 @@
 
 @import "bootstrap-custom";
 
+@import "fonts";
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -585,4 +587,15 @@ body {
       }
     }
   }
+}
+
+h2.telegram {
+  text-align: center;
+  word-break: break-word;
+}
+
+img.telegram-icon {
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
 }
