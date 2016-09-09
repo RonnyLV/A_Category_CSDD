@@ -15,3 +15,6 @@ github_username:  RonnyLV
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap

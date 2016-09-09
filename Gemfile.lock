@@ -131,6 +131,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   github-pages
   jekyll-github-metadata (~> 1.0)
+  jekyll-sitemap
   minima
 
 RUBY VERSION
