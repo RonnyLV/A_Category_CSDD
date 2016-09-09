@@ -14,7 +14,7 @@
     <meta property="og:title"
           content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% if page.category %} - {{ page.category }} Kategorija{% endif %}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+    <meta property="og:url" content="{% if page.ogbaseurl %}{{site.url}}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
     <meta property="og:image" content="{{ site.url }}/{{ page.headingimage }}"/>
     <meta property="og:description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
