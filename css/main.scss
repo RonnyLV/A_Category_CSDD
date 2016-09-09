@@ -484,6 +484,9 @@ body {
   top: 30%;
 
   @media(max-width: $screen-xs-max) {
+    & {
+      top: 5%;
+    }
     li {
       width: 30px !important;
 
