@@ -483,6 +483,22 @@ body {
   position: absolute;
   top: 30%;
 
+  @media(max-width: $screen-xs-max) {
+    li {
+      width: 30px !important;
+
+      a {
+        font-size: 28px;
+
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      }
+    }
+  }
+
   ul {
     list-style-type: none;
     padding-left: 0;
