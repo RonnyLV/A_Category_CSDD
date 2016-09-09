@@ -467,6 +467,7 @@ body {
 
     .intro-header {
       background-image: url('./../img/moto.jpg');
+      box-shadow: 0 -35px 30px -15px #242424 inset;
     }
   }
 
@@ -476,7 +477,7 @@ body {
 
     .intro-header {
       background-image: url('./../img/auto.jpg');
-      background-position: center bottom;
+      box-shadow: 0 -35px 30px -15px #1B2023 inset;
     }
   }
 }
@@ -591,7 +592,6 @@ body {
 
 h2.telegram {
   text-align: center;
-  word-break: break-word;
 }
 
 img.telegram-icon {
