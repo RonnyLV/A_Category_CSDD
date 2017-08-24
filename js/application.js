@@ -5,32 +5,23 @@ $(document).ready(function () {
             if ($('body').data('department') == dept.name) {
                 $.each(dept.categories, function (j, category) {
                     if ($('body').data('category') == category.name) {
+                        var $lastUpdatedEl = $('#last-updated');
+                        var $examsEl = $('#exams');
                         if (typeof category.lastUpdated !== 'undefined') {
-                            var tbl_body = $("<tbody>");
-                            var odd_even = false;
+                            var tbl_body = $examsEl.find("tbody");
                             $.each(category.exams, function (rowNumber) {
-                                var tbl_row = $("<tr>");
-                                var th_cell = $("<th scope=\"row\"></th>");
-                                tbl_row.addClass(odd_even ? "odd" : "even");
-                                var first_row = true;
-                                $.each(this, function (k, v) {
-                                    if (first_row) {
-                                        th_cell.text(Number(rowNumber) + 1);
-                                        $(tbl_row).append(th_cell);
-                                        first_row = false;
-                                    }
-                                    var cell = $("<td>");
-                                    cell.text(v.toString());
-                                    tbl_row.append(cell);
-                                });
+                                var _exam = this;
+                                var tbl_row = $('<tr>');
+                                tbl_row.append($('<th scope="row"></th>').text(Number(rowNumber) + 1));
+                                tbl_row.append($('<td>').text(_exam.date.toString()));
+                                tbl_row.append($('<td>').text(_exam.freePositions.toString()));
                                 tbl_body.append(tbl_row);
-                                odd_even = !odd_even;
                             });
-                            $("#last-updated").text(new Date(category.lastUpdated * 1000).toLocaleString("LV"));
-                            $("#exams").append(tbl_body);
+                            $lastUpdatedEl.text(new Date(category.lastUpdated * 1000).toLocaleString("LV"));
+                            $lastUpdatedEl.attr("datetime", new Date(category.lastUpdated * 1000).toISOString());
                         } else {
-                            $("#last-updated").text("Gaidām nākamo sezonu!");
-                            $("#exams").append("Sezona noslēgusies");
+                            $lastUpdatedEl.text("Gaidām nākamo sezonu!");
+                            $examsEl.append("Sezona noslēgusies");
                         }
                     }
                 });
