@@ -16,10 +16,6 @@
     "categories": []
   },
   {
-    "name": "CSDD Jūrmalas nod.",
-    "categories": []
-  },
-  {
     "name": "CSDD Liepājas nod.",
     "categories": []
   },
@@ -59,7 +55,7 @@
           },
           {
             "date": "04.10.2017",
-            "freePositions": "39"
+            "freePositions": "38"
           },
           {
             "date": "05.10.2017",
@@ -71,7 +67,7 @@
           },
           {
             "date": "09.10.2017",
-            "freePositions": "51"
+            "freePositions": "50"
           },
           {
             "date": "10.10.2017",
@@ -82,7 +78,7 @@
             "freePositions": "49"
           }
         ],
-        "lastUpdated": 1506330052
+        "lastUpdated": 1506330952
       },
       {
         "name": "B ar aut. ātrumkārbu",
@@ -129,7 +125,7 @@
           },
           {
             "date": "04.10.2017",
-            "freePositions": "1"
+            "freePositions": "0"
           },
           {
             "date": "05.10.2017",
@@ -141,7 +137,7 @@
           },
           {
             "date": "09.10.2017",
-            "freePositions": "6"
+            "freePositions": "5"
           },
           {
             "date": "10.10.2017",
@@ -152,7 +148,7 @@
             "freePositions": "13"
           }
         ],
-        "lastUpdated": 1506330066
+        "lastUpdated": 1506330966
       },
       {
         "name": "B1",
