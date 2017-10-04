@@ -47,15 +47,15 @@
           },
           {
             "date": "11.10.2017",
-            "freePositions": "1"
+            "freePositions": "0"
           },
           {
             "date": "12.10.2017",
-            "freePositions": "13"
+            "freePositions": "12"
           },
           {
             "date": "13.10.2017",
-            "freePositions": "25"
+            "freePositions": "22"
           },
           {
             "date": "16.10.2017",
@@ -70,7 +70,7 @@
             "freePositions": "33"
           }
         ],
-        "lastUpdated": 1507109453
+        "lastUpdated": 1507110361
       },
       {
         "name": "B ar aut. ātrumkārbu",
@@ -120,7 +120,7 @@
             "freePositions": "0"
           }
         ],
-        "lastUpdated": 1507109466
+        "lastUpdated": 1507110377
       },
       {
         "name": "B1",
