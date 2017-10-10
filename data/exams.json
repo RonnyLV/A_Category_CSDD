@@ -30,10 +30,6 @@
         "name": "B",
         "exams": [
           {
-            "date": "11.10.2017",
-            "freePositions": "0"
-          },
-          {
             "date": "12.10.2017",
             "freePositions": "0"
           },
@@ -63,7 +59,7 @@
           },
           {
             "date": "23.10.2017",
-            "freePositions": "16"
+            "freePositions": "15"
           },
           {
             "date": "24.10.2017",
@@ -82,7 +78,7 @@
             "freePositions": "35"
           }
         ],
-        "lastUpdated": 1507664756
+        "lastUpdated": 1507665649
       },
       {
         "name": "B ar aut. ātrumkārbu",
@@ -104,10 +100,6 @@
         "name": "A",
         "exams": [
           {
-            "date": "11.10.2017",
-            "freePositions": "0"
-          },
-          {
             "date": "12.10.2017",
             "freePositions": "0"
           },
@@ -116,7 +108,7 @@
             "freePositions": "0"
           }
         ],
-        "lastUpdated": 1507664774
+        "lastUpdated": 1507665663
       },
       {
         "name": "B1",
