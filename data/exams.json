@@ -31,7 +31,7 @@
         "exams": [
           {
             "date": "06.12.2017",
-            "freePositions": "0"
+            "freePositions": "6"
           },
           {
             "date": "07.12.2017",
@@ -78,7 +78,7 @@
             "freePositions": "31"
           }
         ],
-        "lastUpdated": 1512459044
+        "lastUpdated": 1512459947
       },
       {
         "name": "B ar aut. ātrumkārbu",
