@@ -63,14 +63,22 @@
           },
           {
             "date": "10.01.2018",
-            "freePositions": "14"
+            "freePositions": "13"
           },
           {
             "date": "11.01.2018",
             "freePositions": "30"
+          },
+          {
+            "date": "12.01.2018",
+            "freePositions": "42"
+          },
+          {
+            "date": "15.01.2018",
+            "freePositions": "30"
           }
         ],
-        "lastUpdated": 1514373346
+        "lastUpdated": 1514374248
       },
       {
         "name": "B ar aut. ātrumkārbu",
