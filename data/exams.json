@@ -1,1 +1,185 @@
-[]
+[
+  {
+    "name": "CSDD Daugavpils nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Gulbenes nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Jelgavas nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Jēkabpils nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Liepājas nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Rēzeknes nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Rīgas nod.",
+    "categories": [
+      {
+        "name": "B",
+        "exams": [
+          {
+            "date": "28.12.2017",
+            "freePositions": "0"
+          },
+          {
+            "date": "29.12.2017",
+            "freePositions": "0"
+          },
+          {
+            "date": "02.01.2018",
+            "freePositions": "0"
+          },
+          {
+            "date": "03.01.2018",
+            "freePositions": "0"
+          },
+          {
+            "date": "04.01.2018",
+            "freePositions": "0"
+          },
+          {
+            "date": "05.01.2018",
+            "freePositions": "0"
+          },
+          {
+            "date": "08.01.2018",
+            "freePositions": "1"
+          },
+          {
+            "date": "09.01.2018",
+            "freePositions": "2"
+          },
+          {
+            "date": "10.01.2018",
+            "freePositions": "16"
+          },
+          {
+            "date": "11.01.2018",
+            "freePositions": "32"
+          }
+        ],
+        "lastUpdated": 1514340944
+      },
+      {
+        "name": "B ar aut. ātrumkārbu",
+        "exams": []
+      },
+      {
+        "name": "B {96}",
+        "exams": []
+      },
+      {
+        "name": "A1",
+        "exams": []
+      },
+      {
+        "name": "A2",
+        "exams": []
+      },
+      {
+        "name": "A",
+        "exams": []
+      },
+      {
+        "name": "B1",
+        "exams": []
+      },
+      {
+        "name": "BE",
+        "exams": []
+      },
+      {
+        "name": "C1",
+        "exams": []
+      },
+      {
+        "name": "C1 {95}",
+        "exams": []
+      },
+      {
+        "name": "C1E",
+        "exams": []
+      },
+      {
+        "name": "C1E {95}",
+        "exams": []
+      },
+      {
+        "name": "C",
+        "exams": []
+      },
+      {
+        "name": "C {95}",
+        "exams": []
+      },
+      {
+        "name": "CE",
+        "exams": []
+      },
+      {
+        "name": "CE {95}",
+        "exams": []
+      },
+      {
+        "name": "D1",
+        "exams": []
+      },
+      {
+        "name": "D1 {95}",
+        "exams": []
+      },
+      {
+        "name": "D1E",
+        "exams": []
+      },
+      {
+        "name": "D1E {95}",
+        "exams": []
+      },
+      {
+        "name": "D",
+        "exams": []
+      },
+      {
+        "name": "D {95}",
+        "exams": []
+      },
+      {
+        "name": "DE",
+        "exams": []
+      },
+      {
+        "name": "DE {95}",
+        "exams": []
+      },
+      {
+        "name": "TROL {100}",
+        "exams": []
+      }
+    ]
+  },
+  {
+    "name": "CSDD Talsu nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Valmieras nod.",
+    "categories": []
+  },
+  {
+    "name": "CSDD Ventspils nod.",
+    "categories": []
+  }
+]
