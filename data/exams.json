@@ -32,41 +32,21 @@
       },
       {
         "name": "A",
-        "exams": []
-      },
-      {
-        "name": "B",
         "exams": [
           {
-            "date": "18.01.2018",
+            "date": "20.04.2018",
             "freePositions": "0"
           },
           {
-            "date": "19.01.2018",
-            "freePositions": "0"
-          },
-          {
-            "date": "22.01.2018",
-            "freePositions": "3"
-          },
-          {
-            "date": "23.01.2018",
+            "date": "26.04.2018",
             "freePositions": "8"
           },
           {
-            "date": "24.01.2018",
-            "freePositions": "32"
-          },
-          {
-            "date": "25.01.2018",
-            "freePositions": "29"
-          },
-          {
-            "date": "26.01.2018",
-            "freePositions": "38"
+            "date": "02.05.2018",
+            "freePositions": "16"
           }
         ],
-        "lastUpdated": 1516139154
+        "lastUpdated": 1523450151
       }
     ]
   },
