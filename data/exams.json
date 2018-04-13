@@ -34,6 +34,10 @@
         "name": "A",
         "exams": [
           {
+            "date": "16.04.2018",
+            "freePositions": "0"
+          },
+          {
             "date": "20.04.2018",
             "freePositions": "0"
           },
@@ -50,7 +54,7 @@
             "freePositions": "17"
           }
         ],
-        "lastUpdated": 1523603750
+        "lastUpdated": 1523604651
       }
     ]
   },
