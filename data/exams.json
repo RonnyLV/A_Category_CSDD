@@ -51,11 +51,11 @@
           },
           {
             "date": "09.05.2018",
-            "freePositions": "2"
+            "freePositions": "1"
           },
           {
             "date": "10.05.2018",
-            "freePositions": "6"
+            "freePositions": "5"
           },
           {
             "date": "11.05.2018",
@@ -63,11 +63,11 @@
           },
           {
             "date": "14.05.2018",
-            "freePositions": "1"
+            "freePositions": "6"
           },
           {
             "date": "15.05.2018",
-            "freePositions": "0"
+            "freePositions": "5"
           },
           {
             "date": "16.05.2018",
@@ -83,7 +83,7 @@
           },
           {
             "date": "21.05.2018",
-            "freePositions": "0"
+            "freePositions": "1"
           },
           {
             "date": "22.05.2018",
@@ -98,7 +98,7 @@
             "freePositions": "6"
           }
         ],
-        "lastUpdated": 1524747651
+        "lastUpdated": 1524748550
       }
     ]
   },
