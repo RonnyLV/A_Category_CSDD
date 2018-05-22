@@ -71,7 +71,7 @@
           },
           {
             "date": "05.06.2018",
-            "freePositions": "0"
+            "freePositions": "1"
           },
           {
             "date": "06.06.2018",
@@ -83,7 +83,7 @@
           },
           {
             "date": "08.06.2018",
-            "freePositions": "5"
+            "freePositions": "4"
           },
           {
             "date": "11.06.2018",
@@ -94,7 +94,7 @@
             "freePositions": "4"
           }
         ],
-        "lastUpdated": 1526983254
+        "lastUpdated": 1526984152
       }
     ]
   },
