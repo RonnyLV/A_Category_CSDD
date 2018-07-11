@@ -96,9 +96,13 @@
           {
             "date": "31.07.2018",
             "freePositions": "0"
+          },
+          {
+            "date": "01.08.2018",
+            "freePositions": "12"
           }
         ],
-        "lastUpdated": 1531293355
+        "lastUpdated": 1531294249
       }
     ]
   },
