@@ -99,14 +99,14 @@
           },
           {
             "date": "01.08.2018",
-            "freePositions": "1"
+            "freePositions": "0"
           },
           {
             "date": "02.08.2018",
             "freePositions": "10"
           }
         ],
-        "lastUpdated": 1531322149
+        "lastUpdated": 1531323049
       }
     ]
   },
