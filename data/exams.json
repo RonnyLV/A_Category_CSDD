@@ -39,7 +39,7 @@
         "exams": [
           {
             "date": "12.07.2018",
-            "freePositions": "0"
+            "freePositions": "1"
           },
           {
             "date": "13.07.2018",
@@ -106,7 +106,7 @@
             "freePositions": "10"
           }
         ],
-        "lastUpdated": 1531325750
+        "lastUpdated": 1531326649
       }
     ]
   },
